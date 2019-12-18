@@ -15,6 +15,8 @@
 		5F763F7523A9533E00E32582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F763F7323A9533E00E32582 /* LaunchScreen.storyboard */; };
 		5F763F8023A9533E00E32582 /* SearchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F763F7F23A9533E00E32582 /* SearchBarTests.swift */; };
 		5F763F8B23A9533E00E32582 /* SearchBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F763F8A23A9533E00E32582 /* SearchBarUITests.swift */; };
+		5F763F9923A953FF00E32582 /* SwiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F763F9823A953FF00E32582 /* SwiftView.swift */; };
+		5F763F9B23A957CE00E32582 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F763F9A23A957CE00E32582 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5F763F8623A9533E00E32582 /* SearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F763F8A23A9533E00E32582 /* SearchBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarUITests.swift; sourceTree = "<group>"; };
 		5F763F8C23A9533E00E32582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F763F9823A953FF00E32582 /* SwiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftView.swift; sourceTree = "<group>"; };
+		5F763F9A23A957CE00E32582 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		5F763F6723A9533B00E32582 /* SearchBar */ = {
 			isa = PBXGroup;
 			children = (
+				5F763F9823A953FF00E32582 /* SwiftView.swift */,
+				5F763F9A23A957CE00E32582 /* SearchBar.swift */,
 				5F763F6823A9533B00E32582 /* AppDelegate.swift */,
 				5F763F6A23A9533B00E32582 /* SceneDelegate.swift */,
 				5F763F6C23A9533B00E32582 /* ContentView.swift */,
@@ -269,6 +275,8 @@
 			files = (
 				5F763F6923A9533B00E32582 /* AppDelegate.swift in Sources */,
 				5F763F6B23A9533B00E32582 /* SceneDelegate.swift in Sources */,
+				5F763F9B23A957CE00E32582 /* SearchBar.swift in Sources */,
+				5F763F9923A953FF00E32582 /* SwiftView.swift in Sources */,
 				5F763F6D23A9533B00E32582 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
